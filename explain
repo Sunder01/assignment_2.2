@@ -1,0 +1,20 @@
+hdfs
+Hdfs is distributed file system used by hadoop frame work
+it holds large amount off data from multiple machine
+it uses distributed data storage
+it consist of single name node and multiple data nodes
+te job of name node is
+Manages the file system namespace.
+Regulates client’s access to files.
+It also executes file system operations such as renaming, closing, and opening files and directories.
+Datanodes perform read-write operations on the file systems, as per client request.
+They also perform operations such as block creation, deletion, and replication according to the instructions of the namenode.
+
+Hadoop cluster
+it is collection of comodity computers connectetd to form cluster for storing large amount of data and can be used for analysing
+the cluster can be scale up or scale down
+
+Blocks
+the user data is stored in data nodes in the form of blocks 
+the size of the block is first fixed as 64 mb then increased to 128 mb
+te size of the blocks are so small sothat it can be easily accessedd with less number of time
